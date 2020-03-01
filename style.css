@@ -1,0 +1,238 @@
+body{
+  width: 100%;
+  height: 100vh;
+  background: rgb(15,99,148);
+background: linear-gradient(120deg, rgba(15,99,148,1) 0%, rgba(70,96,176,1) 37%, rgba(138,75,145,1) 96%);
+  /*background: rgb(13,115,176);*/
+  /*background: linear-gradient(120deg, rgba(13,115,176,1) 5%, rgba(13,73,168,1) 35%, rgba(144,64,208,1) 91%);*/
+}
+
+.outside-text{ /*Pupilpath*/
+  text-align: center;
+  padding-top: 65px;
+  font-family: "Raleway";
+  font-size: 80px;  
+  font-weight: bold; 
+  color: white; 
+}
+
+.outside-text h1{ /*By IO Education*/
+  width: 115px;
+  height: 15px;
+  text-align: center;
+  font-size: 15px;
+  margin: 0px auto;
+  opacity: 0.8;
+  left: 119px;
+  bottom: 10px;
+  position: relative;
+}
+
+.outside-text p3{ /*CaseNEX*/
+  font-family: "arial";
+  margin: 0px auto;
+  position: relative;
+  color: white;
+  left: 27px;
+  top: 230px;
+  font-size: 13px;
+  font-weight: lighter;
+  opacity: 0.9;
+}
+
+.outside-text p3:hover {
+  text-decoration: underline;
+}
+
+.outside-text p4{ /*Datacation*/
+  font-family: "arial";
+  margin: 0px auto;
+  position: relative;
+  color: white;
+  left: 11px;
+  top: 230px;
+  font-size: 13px;
+  font-weight: lighter;
+  opacity: 0.9;
+}
+
+.outside-text p4:hover {
+  text-decoration: underline;
+}
+
+.outside-text p5{ /* outside "/" */
+  font-family: "arial";
+  margin: 0px auto;
+  position: relative;
+  color: white;
+  right: 75px;
+  top: 230px;
+  opacity: 0.9;
+  font-size: 13px;
+}
+
+.box1{ /*setup for big box*/
+  bottom: 95px;
+  width: 330px;
+  height: 250px;
+  margin: 10px auto;
+  background-color: rgba(255,255,255,0.15);
+  position: relative;
+  border-radius: 5px;
+}
+
+.box1 h2{ /*Welcome*/
+  padding-top: 35px;
+  font-family: "arial";
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.box1 h5{ /*Parents Register*/
+  font-family: "arial";
+  text-align: center;
+  width: 140px;
+  height: 25px;
+  margin: 0px auto;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  right: 49px;
+  top: 50px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.box1 h5:hover{
+  text-decoration: underline;
+}
+.box1 h6{ /*Students Register*/
+  font-family: "arial";
+  width: 140px;
+  height: 25px;
+  margin: 0px auto;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  left: 80px;
+  top: 25px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.box1 h6:hover{
+  text-decoration: underline;
+}
+
+.box1 h7{ /* | */
+  font-family: "arial";
+  width: 95px;
+  height: 50px;
+  margin: 0px auto;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  left: 168px;
+  /*top: 1px;*/
+  bottom: 3px;
+  font-size: 13px;
+}
+
+.box1 h8{ /*instructions*/
+  font-family: "arial";
+  text-align: center;
+  width: 140px;
+  height: 25px;
+  margin: 0px auto;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  left: 55px;
+  top: 40px;
+  font-size: 13px;
+}
+
+.box1 h8:hover{ 
+  text-decoration: underline;
+}
+
+.box1 h9{ /*quick setup doc*/
+  font-family: "arial";
+  text-align: center;
+  width: 140px;
+  height: 25px;
+  margin: 0px auto;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  left: 62px;
+  top: 40px;
+  font-size: 13px;
+}
+
+.box1 h9:hover{
+  text-decoration: underline;
+}
+
+.box1 p1{ /* inside box "/" */
+  font-family: "arial";
+  width: 100px;
+  height: 25px;
+  margin: 0px auto;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  right: 82px;
+  top: 40px;
+  font-size: 13px;
+}
+
+.box1 h3{ /*forgot password*/
+  /*text-align: center;*/
+  font-family: "arial";
+  width: 150px;
+  height: 20px;
+  margin: 0px auto;
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  left: 29px;
+  top: 44px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.box1 h3:hover{
+  text-decoration: underline;
+}
+
+.box2{ /*sign-in-box */
+  bottom: 285px;
+  width: 75px;
+  height: 35px;
+  margin: 0px auto;
+  background-color: rgba(255,255,255,0.1);
+  position: relative;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.box2:hover{
+  text-decoration: none;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.box2 p{ /* sign in */
+  text-decoration: none;
+  font-family: "arial";
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
